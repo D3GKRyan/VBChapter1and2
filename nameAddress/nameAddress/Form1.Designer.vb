@@ -32,10 +32,10 @@ Partial Class Form1
         'lblName
         '
         Me.lblName.AutoSize = True
-        Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblName.Location = New System.Drawing.Point(201, 75)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(151, 24)
+        Me.lblName.Size = New System.Drawing.Size(111, 19)
         Me.lblName.TabIndex = 0
         Me.lblName.Text = "Ryan Campbell"
         Me.lblName.Visible = False
@@ -43,10 +43,10 @@ Partial Class Form1
         'lblCityStateZip
         '
         Me.lblCityStateZip.AutoSize = True
-        Me.lblCityStateZip.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCityStateZip.Location = New System.Drawing.Point(172, 123)
+        Me.lblCityStateZip.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCityStateZip.Location = New System.Drawing.Point(177, 113)
         Me.lblCityStateZip.Name = "lblCityStateZip"
-        Me.lblCityStateZip.Size = New System.Drawing.Size(214, 24)
+        Me.lblCityStateZip.Size = New System.Drawing.Size(160, 19)
         Me.lblCityStateZip.TabIndex = 1
         Me.lblCityStateZip.Text = "888 South Main Street"
         Me.lblCityStateZip.Visible = False
@@ -54,17 +54,17 @@ Partial Class Form1
         'lblStreet
         '
         Me.lblStreet.AutoSize = True
-        Me.lblStreet.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStreet.Location = New System.Drawing.Point(163, 99)
+        Me.lblStreet.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStreet.Location = New System.Drawing.Point(172, 94)
         Me.lblStreet.Name = "lblStreet"
-        Me.lblStreet.Size = New System.Drawing.Size(223, 24)
+        Me.lblStreet.Size = New System.Drawing.Size(165, 19)
         Me.lblStreet.TabIndex = 2
         Me.lblStreet.Text = "Waynesville, NC 28786"
         Me.lblStreet.Visible = False
         '
         'btnShowInfo
         '
-        Me.btnShowInfo.Location = New System.Drawing.Point(135, 214)
+        Me.btnShowInfo.Location = New System.Drawing.Point(154, 146)
         Me.btnShowInfo.Name = "btnShowInfo"
         Me.btnShowInfo.Size = New System.Drawing.Size(75, 23)
         Me.btnShowInfo.TabIndex = 3
@@ -73,7 +73,7 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(311, 214)
+        Me.btnExit.Location = New System.Drawing.Point(285, 146)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 4
@@ -84,7 +84,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(595, 351)
+        Me.ClientSize = New System.Drawing.Size(539, 192)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnShowInfo)
         Me.Controls.Add(Me.lblStreet)
